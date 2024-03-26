@@ -1,6 +1,8 @@
 from cpf import *
+from validate_docbr import CPF
 
-cpf = 15616987913
+cpf_generate = CPF()
+cpf = cpf_generate.generate()
 cpf = Cpf(cpf)
 
 print(cpf)
